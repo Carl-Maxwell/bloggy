@@ -14,6 +14,9 @@ gem 'backbone-on-rails'
 
 gem 'bcrypt'
 
+gem 'slim'
+gem 'slim-rails'
+
 group :development, :test do
   gem 'byebug'
 
