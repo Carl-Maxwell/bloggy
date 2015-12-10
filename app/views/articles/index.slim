@@ -1,1 +1,12 @@
 h2 Articles Index!
+
+ul
+  li
+    a href=new_article_path New Article
+
+ul
+  - @articles.each do |article|
+    li
+      h2
+        a href=article_path(article) = article.title
+      p = article.content

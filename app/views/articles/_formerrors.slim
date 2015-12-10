@@ -1,0 +1,6 @@
+
+  - if @article.errors.any?
+    div id="error_explanation"
+      ul
+        - @article.errors.full_messages.each do |msg|
+          li = msg
