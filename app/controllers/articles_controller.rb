@@ -1,5 +1,9 @@
 class ArticlesController < ApplicationController
   def index
+    # TODO handle GET[search] params
+    # TODO handle GET[tags] params
+    # TODO add pagination
+    
   end
 
   def show

@@ -2,13 +2,19 @@
 <html>
 <head>
   <title>Bloggy</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="blockout">
 
+<div class="header"></div>
+
+<div class="body">
 <%= yield %>
+</div>
 
+<div class="footer"></div>
+
+</div>
 </body>
 </html>
